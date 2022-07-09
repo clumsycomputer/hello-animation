@@ -1,0 +1,13 @@
+{
+  "name": "foo-gr-test",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "colormap": "^2.3.2",
+    "graphics-renderer": "^1.0.2"
+  },
+  "scripts": {
+    "startDevelopment": "yarn graphics-renderer startDevelopment --animationModulePath=./source/HelloColor.animation.tsx"
+  }
+}
